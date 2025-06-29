@@ -1,0 +1,49 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #161b22;
+  color: white;
+  border-bottom: 1px solid #2c2f36;
+}
+
+.topbar h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #0d1117;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #2c2f36;
+  color: #ccc;
+}
+
+.search-box input {
+  background: transparent;
+  border: none;
+  margin-left: 8px;
+  color: white;
+  outline: none;
+}
+
+.topbar-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.topbar-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}

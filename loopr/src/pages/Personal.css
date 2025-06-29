@@ -1,0 +1,58 @@
+.personal-page {
+  padding: 20px;
+  color: white;
+  background-color: #0d1117;
+  min-height: 100vh;
+}
+
+.personal-page h2 {
+  margin-bottom: 20px;
+  color: #00d084;
+}
+
+.profile-info,
+.settings-section {
+  background: #1e2329;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #2a2f35;
+}
+
+.profile-info p,
+.settings-section label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.settings-section h3 {
+  color: #00d084;
+  margin-bottom: 15px;
+}
+
+.settings-section select {
+  background: #2a2f35;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.settings-section button {
+  padding: 10px 20px;
+  background-color: #00d084;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+.settings-section button:hover {
+  background-color: #00b67a;
+}

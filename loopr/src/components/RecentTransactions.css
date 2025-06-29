@@ -1,0 +1,74 @@
+.recent-container {
+  background-color: #1e2329;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  border: 1px solid #2a2f35;
+  height: 100%;
+}
+
+.recent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.recent-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.see-all {
+  color: #00bcd4;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recent-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.recent-label {
+  font-size: 12px;
+  color: #aaa;
+  margin: 0;
+}
+
+.recent-name {
+  font-size: 14px;
+  margin: 0;
+}
+
+.recent-amount {
+  font-weight: bold;
+}
+
+.green {
+  color: #4CAF50;
+}
+
+.red {
+  color: #FF5722;
+}
+ 

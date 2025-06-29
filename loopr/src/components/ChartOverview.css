@@ -1,0 +1,43 @@
+.chart-container {
+  background-color: #1e2329;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  color: white;
+  border: 1px solid #2a2f35;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chart-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.chart-legend {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.income-dot {
+  background-color: #4CAF50;
+}
+
+.expenses-dot {
+  background-color: #FFC107;
+}
